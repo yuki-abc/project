@@ -1,0 +1,179 @@
+body {
+    background: url(https://usrsyswsdl.vivo.com.cn/usermng/1597668237695.jpg), no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 420px;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+
+form .top {
+    width: 420px;
+    height: 109px;
+    position: relative;
+}
+
+form img {
+    display: block;
+    margin: 20px auto;
+}
+
+form .num1 {
+    display: block;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+form .top a {
+    color: #4570fe;
+    position: absolute;
+    right: 25px;
+}
+
+.bottom #telephone {
+    width: 380px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: auto;
+    display: flex;
+}
+
+.bottom #telephone .list {
+    width: 80px;
+    height: 50px;
+    background: url(../img/down.png) no-repeat 50px center;
+    background-size: 10px;
+    cursor: pointer;
+}
+
+.bottom #telephone .number {
+    display: block;
+    margin: 0;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.bottom #telephone input {
+    width: 300px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.bottom .test {
+    width: 380px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    margin: 20px auto;
+}
+.num2{
+    user-select: none;
+    cursor: pointer;
+}
+.bottom .test input {
+    width: 300px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.bottom .content {
+    position: absolute;
+    width: 380px;
+    height: 180px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    top: 198px;
+    z-index: 1000;
+    display: none;
+}
+
+.bottom .content li {
+    width: 360px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.bottom .content li:hover {
+    background-color: #ccc;
+}
+
+.bottom .test>div {
+    width: 80px;
+    height: 46px;
+    border: none;
+    border-left: 1px solid #ccc;
+    outline: none;
+    background-color: #fff;
+    line-height: 50px;
+    color: #4570fe;
+}
+.auto1{
+    position: absolute;
+    right: 25px;
+}
+.auto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auto>a {
+    color: #4570fe;
+    margin-left: 25px;
+}
+
+.login {
+    display: block;
+    width: 380px;
+    height: 50px;
+    background-color: #4570fe;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.register {
+    display: block;
+    width: 380px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: auto;
+    font-size: 16px;
+    color: #4570fe;
+    border: 1px solid #4570fe;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.message {
+    color: #999;
+    font-size: 14px;
+}
+
+.forget {
+    position: absolute;
+    right: 190px;
+}
+
+.register:hover {
+    background-color: #e1ecfe;
+}
+
+.login:hover {
+    background-color: blue;
+}

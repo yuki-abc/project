@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <form action="" id="message">
+        <div class="top">
+            <img src="../img/vivo.png" alt="">
+            <span class="num1">短信验证码登录</span>
+            <a href="../html/login1.html" class="acc">帐号登录</a>
+        </div><br>
+        <div class="bottom">
+            <div id="telephone">
+                <div class="list">
+                    <span class="number">+86</span>
+                </div>
+                <ul class="content">
+                    <!-- <li><span class="quhao">+86</span><span>中国</span></li> -->
+                </ul>
+                <input type="tel" placeholder="请输入手机号" id="tel">
+            </div>
+            <div class="test">
+                <input type="text" class="txt"><div class="num2">获取验证码</div>
+            </div>
+            <span class="phone_error" style="color: red; margin-left: 20px; display: none;">请输入手机号</span>
+            <div class="auto1">
+                <input type="checkbox" class="autoLogin">&nbsp; 两周内自动登录
+            </div>           
+            <br><button class="login" style="margin-top: 20px;" disabled >登录</button>
+            
+            <button class="register"><a href="../html/register.html" style="color: #4570fe;">注册vivo账号</a></button><br>
+            <span class="message">短信可能会有延时，请耐心等待，如果长时间未收到短信，请60秒后重新获取</span><br>
+            <a href="" class="forget">忘记密码</a>
+        </div>
+    </form>
+    
+    <script src="../js/utils.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/login1.js"></script>
+
+</body>
+
+</html>

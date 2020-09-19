@@ -1,0 +1,376 @@
+body {
+    background-color: #f7f7f7;
+}
+
+/* -------------购物车头部------------- */
+.car_title {
+    background-color: #fff;
+    width: 1200px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.car_title span {
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    float: left;
+    margin-left: 500px;
+}
+
+.car_title .car_right {
+    width: 100px;
+    height: 60px;
+    float: right;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.car_title .car_right:hover a {
+    color: red;
+}
+
+/* ------------购物车空内容------------- */
+.no_result {
+    width: 1200;
+    height: 450px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.no_result img {
+    display: block;
+    width: 190px;
+    height: 145px;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.no_result p {
+    display: block;
+    width: 140px;
+    color: #999;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.no_result_btn {
+    width: 500px;
+    height: 70px;
+    margin: 30px auto;
+
+}
+
+.no_result_btn button {
+    border: none;
+    background-color: #ff0c53;
+    background-image: linear-gradient(270deg, #ff0c53, #e51422);
+    border-radius: 20px/50%;
+    width: 195px;
+    height: 50px;
+    margin-left: 50px;
+
+}
+
+.no_result_btn a {
+    display: block;
+    width: 195px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+/*------------- 购物车内容------------- */
+.car_head {
+    width: 1200px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+    line-height: 60px;
+}
+
+.car_head input {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 20px 10px 0 10px;
+}
+
+.car_head p {
+    display: inline-block;
+    width: 160px;
+    height: 60px;
+}
+
+.car_head span {
+    display: inline-block;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ---------------购物车主体--------------- */
+#car_details {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.car_list {
+    width: 1200px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.car_list input {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 20px 10px 0 10px;
+}
+
+.car_list .car_img {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #ccc;
+    margin: 25px 20px;
+}
+
+.car_list .car_img img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.car_list p {
+    display: inline-block;
+    width: 250px;
+    margin: 0 10px;
+}
+
+.car_list .price {
+    margin-right: 20px;
+}
+
+.car_list .number {
+    display: flex;
+    width: 100px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.car_list .number label{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height:32px ;
+    user-select: none;
+    cursor: pointer;
+}
+.car_list .number input{
+    margin: 0;
+    width: 36px;
+    height: 30px;
+    text-align: center;
+    line-height:30px ;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.discount{
+    display: block;
+    width: 110px;
+    text-align: center;
+    line-height:30px ;
+    margin-left: 20px;
+}
+.points{
+    display: block;
+    width: 110px;
+    text-align: center;
+    line-height:30px ;
+}
+.total{
+    display: block;
+    width: 110px;
+    text-align: center;
+    line-height:30px ;
+    color: red;
+    margin-left: 20px;
+}
+.delete{
+    display: block;
+    width: 110px;
+    text-align: center;
+    line-height:30px ;
+    margin-left: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/*------------- 购物车结算------------- */
+.settlement{
+    width: 1200px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.settlement input {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0 10px;
+}
+.settlement>p{
+    display: block;
+    width: 50px;
+}
+.settlement .choose{
+    margin-left: 600px;
+}
+.settlement .choose p:first-child{
+    display: block;
+    display: flex;
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+}
+.settlement .choose p:nth-of-type(2){
+    display: block;
+    font-size: 14px;
+    color: #999;
+    width: 300px;
+    margin-left: 100px;
+}
+.settlement .choose span{
+    font-size: 34px;
+    color: red;
+}
+.settlement button{
+    width: 170px;
+    height: 50px;
+    background-color: #ff0c53;
+    border-radius: 20px/50%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* -------------------猜你喜欢------------------- */
+.accessories {
+    height: 800px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.accessories .acc_top {
+    width: 100%;
+    height: 60px;
+    /* background-color: pink; */
+}
+
+.accessories .acc_top h3 {
+    font-size: 20px;
+    color: #000;
+    float: left;
+    line-height: 60px;
+}
+
+
+.acc_bottom {
+    width: 100%;
+    height: 700px;
+    /* background-color: beige; */
+}
+
+.acc_bottom>ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.acc_bottom .acc_list {
+    width: 280px;
+    height: 350px;
+    background-color: #fff;
+    margin-top: 10px;
+    position: relative;
+}
+
+.acc_list img {
+    width: 180px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.acc_list h4 {
+    font-size: 16px;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.acc_list p {
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.acc_list span {
+    display: block;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/*--------------- 侧栏--------------- */
+.aside {
+    width: 50px;
+    /* border: 1px solid #000; */
+    position: fixed;
+    top:500px;
+    right: 0px;
+    z-index: 10000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.iconfont {
+    display: block;
+    font-size: 30px;
+    margin: 10px 10px;
+}
+
+.icon-fanhuidingbu {
+    font-size: 35px;
+    display: none;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px #ccc;
+}

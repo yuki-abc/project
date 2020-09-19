@@ -1,0 +1,306 @@
+/*---------------- 顶部区域 ----------------*/
+#top {
+    width: 100%;
+    height: 47px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top ul li {
+    float: left;
+}
+
+#top ul li a {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 47px;
+}
+
+#top ul li a:hover {
+    color: #999;
+}
+
+.top_l,
+.top_r {
+    height: 47px;
+}
+
+.top_l {
+    margin-left: 90px;
+}
+
+.top_r {
+    margin-right: 90px;
+}
+
+.top_l ul li {
+    margin-right: 60px;
+}
+
+.top_r ul li {
+    margin-left: 35px;
+}
+
+.top_r .border {
+    display: block;
+    height: 14px;
+    width: 1px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    margin-top: 16px;
+}
+
+/* ---------------导航部分--------------- */
+
+#nav {
+    width: 100%;
+    height: 68px;
+    background: #f7f7f7;
+    display: flex;
+}
+
+.nav {
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    position: relative;
+}
+
+.nav_l {
+    margin-right: 30px;
+}
+
+.nav_l a img {
+    width: 140px;
+    height: 46px;
+    margin-top: 10px;
+}
+
+.nav_center {
+    flex: 1;
+}
+
+.nav_center ul li {
+    float: left;
+    margin-right: 15px;
+    /* display: none; */
+}
+
+.nav_center ul li a {
+    display: block;
+    height: 68px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 68px;
+    margin-right: 20px;
+}
+
+.nav_r img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.nav_right {
+    width: 600px;
+    height: 68px;
+    float: right;
+    display: none;
+}
+
+#form {
+    display: flex;
+    margin-top: 20px;
+}
+
+#keyWord {
+    display: block;
+    width: 400px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.nav_right img {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    margin-right: 30px;
+
+}
+
+.nav_right #delete {
+    border: none;
+    background-color: #fff;
+    color: #999;
+    font-size: 20px;
+    outline: none;
+    float: left;
+    cursor: pointer;
+}
+
+ .list1 {
+    width: 560px;
+    background-color: #fff;
+    position: absolute;
+    top: 68px;
+    right: 80px;
+    z-index: 10000;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+
+.list1 ul li {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+    line-height: 30px;
+}
+
+.list1 ul li:hover {
+    background-color: #ccc;
+}
+
+/* -------------侧栏区域------------- */
+.aside {
+    width: 50px;
+    /* border: 1px solid #000; */
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    z-index: 10000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.iconfont {
+    display: block;
+    font-size: 30px;
+    margin: 10px 10px;
+}
+
+.icon-fanhuidingbu {
+    font-size: 35px;
+    display: none;
+}
+
+/* ---------------底部--------------- */
+#bottom {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    margin-top: 60px;
+}
+
+.bottom .bottom_t {
+    width: 100%;
+    height: 110px;
+    /* background-color: pink; */
+    border-bottom: 1px solid #ccc;
+}
+
+.bottom .bottom_t ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.bottom .bottom_t ul li {
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.sf,
+.ax,
+.lei {
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+
+.zp {
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+
+.bottom_c {
+    width: 100%;
+    height: 400px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.bottom_c ul {
+    float: left;
+    color: #000;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.bottom_c ul li {
+    margin: 10px 0;
+}
+
+
+.bottom_c ul li a {
+    font-size: 14px;
+    color: #333;
+    user-select: none;
+    cursor: pointer;
+}
+
+.bottom_c ul li a:hover {
+    color: #415fff;
+}
+.b_right{
+    margin-right: 30px;
+}
+.b_right .kf {
+    position: relative;
+    top: -15px;
+}
+.b_right li p{
+    font-size: 20px;
+    color: #415fff;
+    
+}
+.b_right li span{
+    margin: 10px 0;
+    font-size: 14px;
+    color: #000;
+}
+.cont li{
+float: left;
+}
+.cont{
+    margin: 0 !important; 
+}
+.cont li i{
+    color: #333333;
+    font-size: 18px;
+    cursor: pointer;
+}
+.cont li i:hover{
+    color: #415fff;
+}
+.bottom_b span{
+    display: block;
+    width: 1200px;
+    font-size: 12px;
+    color: #333333;
+    margin-left: 30px;
+}

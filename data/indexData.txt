@@ -1,0 +1,6 @@
+index url：https://shop.vivo.com.cn/api/v1/home/index?t=1599281656292
+
+抢购部分：https://shop.vivo.com.cn/api/v1/channel/getDetail?t=1599286227245
+
+详情页头部：https://shop.vivo.com.cn/api/v1/product/getInfo?spuId=10005630&t=1599469909305
+详情页底部：https://shop.vivo.com.cn/api/v1/product/getDetail?spuId=10005630&typeId=1&t=1599469909602
